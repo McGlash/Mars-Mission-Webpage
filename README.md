@@ -2,7 +2,7 @@
 
 ![mission_to_mars](Images/mission_to_mars.png)
 
-In this challenge, I will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines the approach:
+In this challenge, I built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines the approach:
 
 ## Step 1 - Scraping
 
@@ -31,7 +31,7 @@ D2. Saves a HTML table string as `mars_facts`.
 
 E1. Visits the USGS Astrogeology site [here](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
 
-E2. Savse both the image url string for the full resolution hemisphere image, and the Hemisphere title containing the hemisphere name. Uses a Python dictionary to store the data using the keys `img_url` and `title`.
+E2. Saves both the image url string for the full resolution hemisphere image, and the Hemisphere title containing the hemisphere name. Uses a Python dictionary to store the data using the keys `img_url` and `title`.
 
 ## Step 2 - MongoDB and Flask Application
 
