@@ -1,12 +1,21 @@
-# Web Scraping challenge - Mission to Mars
+# Mars Adventure!
 
 ![mission_to_mars](Images/mission_to_mars.png)
 
-In this challenge, I built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines the approach:
+I built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. 
+
+### How to deploy
+
+* deploy the [flask app](docs/app.py) and MongoDB (download here)[https://www.mongodb.com/try/download]
+* click 'Scrape New Info'!
+* open localhost in browser (likely http://localhost:5000/)
+
+#Approach 
 
 ## Step 1 - Scraping
 
-* See Jupyter Notebook [file]Web Scraping/mission_to_mars.ipynb) for scraping and analysis steps. 
+* Tested here [file](Web Scraping/mission_to_mars.ipynb)
+* Incorporated into functions called during trigger (clicking scrape button > [scrapes sources](docs/scrape_mars.py) > updates MondoDB > reopens [index page](docs/templates/index.html) with updated info)
 
 ### NASA Mars News
 
@@ -35,9 +44,7 @@ E2. Saves both the image url string for the full resolution hemisphere image, an
 
 ## Step 2 - MongoDB and Flask Application
 
-A MongoDB with Flask templating is used to create a new HTML page that displays all of the information that was scraped from the URLs above. See `docs` folder.
-
-    * see route called `/scrape` that imports `scrape_mars.py` script and calls the `scrape` function.
+A MongoDB with Flask templating is used to create a new HTML page that displays all of the information that was scraped from the URLs above. 
 
 ![final_app_part1.png](Images/final_app_part1.png)
 ![final_app_part2.png](Images/final_app_part2.png)
