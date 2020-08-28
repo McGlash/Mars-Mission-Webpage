@@ -6,7 +6,7 @@ In this challenge, I built a web application that scrapes various websites for d
 
 ## Step 1 - Scraping
 
-* See Jupyter Notebook file called `mission_to_mars.ipynb` for scraping and analysis steps. 
+* See Jupyter Notebook [file]Web Scraping/mission_to_mars.ipynb) for scraping and analysis steps. 
 
 ### NASA Mars News
 
