@@ -6,7 +6,7 @@ I built a web application that scrapes various websites for data related to the 
 
 ### How to deploy
 
-* deploy the [flask app](docs/app.py) and MongoDB [download here](https://www.mongodb.com/try/download)
+* deploy the [flask app](docs/app.py) and MongoDB ([download here](https://www.mongodb.com/try/download))
 * click 'Scrape New Info'!
 * open localhost in browser (likely http://localhost:5000/)
 
@@ -14,7 +14,6 @@ I built a web application that scrapes various websites for data related to the 
 
 ## Step 1 - Scraping
 
-* Tested here [file]('Web Scraping'/mission_to_mars.ipynb)
 * Incorporated into functions called during trigger (clicking scrape button > [scrapes sources](docs/scrape_mars.py) > updates MondoDB > reopens [index page](docs/templates/index.html) with updated info)
 
 ### NASA Mars News
